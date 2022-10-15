@@ -1,0 +1,30 @@
+<mechanism type="ChainLink" name="EyeChain" camera_distance=100>
+	<chain name="RightEye" useIK=true model="">
+	<chain_location x=0.0 y=0.0 z=0.0></chain_location>
+	<chain_direction x=0.0 y=0.0 z=1.0></chain_direction>
+	<joint name="Zaxis" model="media/coordsys1.obj" steps_per_unit=227.555 min=-140.0 max=140.0 prismatic=true clock_wise=false unit_limit_to_home=21.0 servo_id=0>
+		<joint_location x=0.0 y=0.0 z=0.0></joint_location>
+		<joint_direction x=0.0 y=0.0 z=1.0></joint_direction>
+	</joint>
+	<joint name="Xaxis" model="media/coordsys2.obj" steps_per_unit=227.555 min=-100.0 max=100.0 prismatic=true clock_wise=true unit_limit_to_home=11.3 servo_id=0>
+		<joint_location x=0.0 y=25.4 z=></joint_location>
+		<joint_direction x=-1.0 y=0.0 z=0.0></joint_direction>
+	</joint>
+	<joint name="Yaxis" model="media/coordsys3.obj" steps_per_unit=227.555 min=-100.0 max=100.0 prismatic=true clock_wise=false unit_limit_to_home=11.3 servo_id=0>
+		<joint_location x=0.0 y=50.8 z=0.0></joint_location>
+		<joint_direction x=0.0 y=-1.0 z=0.0></joint_direction>
+	</joint>
+	<joint name="Aaxis" model="media/coordsys4.obj" steps_per_unit=227.555 min=-180.0 max=180.0 prismatic=false clock_wise=false unit_limit_to_home=21.0 servo_id=0>
+		<joint_location x=0.0 y=76.2 z=0.0></joint_location>
+		<joint_direction x=0.0 y=0.0 z=1.0></joint_direction>
+	</joint>
+	<joint name="Baxis" model="media/coordsys5.obj" steps_per_unit=227.555 min=-180.0 max=180.0 prismatic=false clock_wise=false unit_limit_to_home=11.3 servo_id=0>
+		<joint_location x=0.0 y=101.6 z=0.0></joint_location>
+		<joint_direction x=0.0 y=1.0 z=0.0></joint_direction>
+	</joint>
+	<joint name="Caxis" model="media/coordsys6.obj" steps_per_unit=227.555 min=-180.0 max=180.0 prismatic=false clock_wise=false unit_limit_to_home=11.3 servo_id=0>
+		<joint_location x=0.0 y=127.0 z=0.0></joint_location>
+		<joint_direction x=1.0 y=0.0 z=0.0></joint_direction>
+	</joint>
+	</chain>
+</mechanism>

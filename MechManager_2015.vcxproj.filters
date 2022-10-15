@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e4b93b3d-0f7b-4707-9aab-b89bb16f667c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source\RenderEngine">
+      <UniqueIdentifier>{a64d967f-836d-477a-9da6-04d6a56746b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RenderEngine\Direct3D">
+      <UniqueIdentifier>{ae0d2949-bc41-474d-9b2a-60c7da4f7651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OsEngine">
+      <UniqueIdentifier>{fa1b80dc-fea7-4b7e-a9f1-df43561be72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OsEngine\Windows">
+      <UniqueIdentifier>{4922d99f-bb14-4cce-be92-b600bdc5e086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FileSystem">
+      <UniqueIdentifier>{e45120bb-2023-4110-90b5-8a39804b278f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MechatronicLib">
+      <UniqueIdentifier>{e512a227-ee33-4d4d-a04f-949ee051ddf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Includes">
+      <UniqueIdentifier>{5c5b34e7-326f-40ea-bc16-84630522fe8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Includes\DXUT">
+      <UniqueIdentifier>{c3bc0c6b-73ad-48c0-a853-332e82ac7790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CaptureLib">
+      <UniqueIdentifier>{2969fb64-0e52-4981-b966-86e0e96c5818}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProgramBuilder.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DContext.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DInput.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DModel.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DReflectionShader.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DRenderTexture.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DTexture.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DTextureShader.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\dxerr.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\DXUtil.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\DDSTextureLoader.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DCamera.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3DInterface.cpp">
+      <Filter>Source\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OsEngine\WindowsInterface.cpp">
+      <Filter>Source\OsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OsManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OsEngine\Windows\WindowCreator.cpp">
+      <Filter>Source\OsEngine\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Input3DInterface.cpp">
+      <Filter>Source\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\ObjectHandler.cpp">
+      <Filter>Source\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DRenderer.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileSystem\PointReader.cpp">
+      <Filter>Source\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileSystem\PathReader.cpp">
+      <Filter>Source\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileSystem\PathBuilder.cpp">
+      <Filter>Source\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileSystem\ToolReader.cpp">
+      <Filter>Source\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OsEngine\MenuHandler.cpp">
+      <Filter>Source\OsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderEngine\Direct3D\Direct3DLightShader.cpp">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConfigManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MachineManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OsEngine\Windows\JointControl.cpp">
+      <Filter>Source\OsEngine\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OsEngine\Windows\CustomControl.cpp">
+      <Filter>Source\OsEngine\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\Mechanism.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\Mechatronic.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\Serializer.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\ServoControl.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\XL320Driver.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\XM430EPDriver.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\BoundingRegion.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\ChainLink.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\IXM430Driver.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\KinematicChain.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Includes\DXUT\DDSTextureLoader.cpp">
+      <Filter>Source\Includes\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Includes\DXUT\dxerr.cpp">
+      <Filter>Source\Includes\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Includes\DXUT\pch.cpp">
+      <Filter>Source\Includes\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Includes\DXUT\SimpleMath.cpp">
+      <Filter>Source\Includes\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Includes\DXUT\WICTextureLoader.cpp">
+      <Filter>Source\Includes\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Includes\tiny_obj_loader.cpp">
+      <Filter>Source\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\MechanismCtrl.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Includes\enumser.cpp">
+      <Filter>Source\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\PI_Driver.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\Connection_DXL.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\Connection_PI.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\IServoDriver.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MechatronicLib\IKSolver.cpp">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OsEngine\Windows\EEControl.cpp">
+      <Filter>Source\OsEngine\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CaptureManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CaptureLib\CameraInterface.cpp">
+      <Filter>Source\CaptureLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CaptureLib\SpinnakerDriver.cpp">
+      <Filter>Source\CaptureLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\light.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\light.ps">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\MechManager.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="Source\resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="Source\ProgramBuilder.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DContext.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DInput.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DModel.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DReflectionShader.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DRenderTexture.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DTexture.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DTextureShader.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\dxerr.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\DXUtil.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\DDSTextureLoader.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DCamera.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3DInterface.h">
+      <Filter>Source\RenderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OsEngine\WindowsInterface.h">
+      <Filter>Source\OsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OsManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Containers.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OsEngine\Windows\WindowCreator.h">
+      <Filter>Source\OsEngine\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Input3DInterface.h">
+      <Filter>Source\RenderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\ObjectHandler.h">
+      <Filter>Source\RenderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DRenderer.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileSystem\PointReader.h">
+      <Filter>Source\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileSystem\PathReader.h">
+      <Filter>Source\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileSystem\PathBuilder.h">
+      <Filter>Source\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileSystem\ToolReader.h">
+      <Filter>Source\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OsEngine\MenuHandler.h">
+      <Filter>Source\OsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DLightShader.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConfigManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MachineManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OsEngine\Windows\JointControl.h">
+      <Filter>Source\OsEngine\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OsEngine\Windows\CustomControl.h">
+      <Filter>Source\OsEngine\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\Mechanism.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\Mechatronic.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\ReturnCode.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\Serializer.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\ServoControl.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\targetver.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\XL320Driver.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\XM430EPDriver.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\BoundingRegion.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\ChainLink.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\IXM430Driver.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\KinematicChain.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\KinematicJoint.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\Loader.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\tiny_obj_loader.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Includes\tiny_obj_loader.h">
+      <Filter>Source\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\MechanismCtrl.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderEngine\Direct3D\Direct3DLight.h">
+      <Filter>Source\RenderEngine\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\PI_Driver.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\Connection_DXL.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\Connection_PI.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\IServoDriver.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MechatronicLib\IKSolver.h">
+      <Filter>Source\MechatronicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OsEngine\Windows\EEControl.h">
+      <Filter>Source\OsEngine\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CaptureManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CaptureLib\CameraInterface.h">
+      <Filter>Source\CaptureLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CaptureLib\SpinnakerDriver.h">
+      <Filter>Source\CaptureLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
